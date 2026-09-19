@@ -21,8 +21,12 @@ aksi yönde verilenler dahil.
 8 bölüm · 3 şablon · 2 örnek ekip · 12 ajan tanımı · 3 devir sözleşmesi
 ```
 
-> **Kardeş repo.** [AgentForge](https://github.com/turuncfatih/agentforge) aynı konunun mühendislik tarafı: burada anlatılan orkestratörün, gate'in, bütçenin ve denetim izinin
-> .NET ile yazılmış hali. Bu repo muhakemeyi, o repo makineyi gösteriyor.
+> **Kardeş repolar.** Bu repo yöntemi anlatıyor; diğer ikisi makineyi ve
+> uygulanmış bir örneği:
+> [AgentForge](https://github.com/turuncfatih/agentforge) — burada anlatılan orkestratörün, gate'in, bütçenin ve
+> denetim izinin .NET ile yazılmış hali.
+> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — bu yöntemin site yapımına uygulanmış hali; sekiz
+> gerçek ajan tanımı ve çalışan bir slop denetleyicisi ile.
 
 ---
 
