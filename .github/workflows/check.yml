@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Broken links and examples that do not follow the repository's own spec
+      # are the two ways a playbook loses credibility. Both fail the build.
+      - name: Links and agent specs
+        run: python3 scripts/check.py

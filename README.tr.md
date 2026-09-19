@@ -2,6 +2,9 @@
 
 **Gerçek bir projeye ajan ekibi nasıl tasarlanır — rol ayrımı, görev sözleşmesi, model seçimi ve tasarımda hesaba katılması gereken hatalar.**
 
+[![check](https://github.com/turuncfatih/agent-team-playbook/actions/workflows/check.yml/badge.svg)](https://github.com/turuncfatih/agent-team-playbook/actions/workflows/check.yml)
+[![licence](https://img.shields.io/badge/lisans-MIT-blue.svg)](LICENSE)
+
 [🇬🇧 English](README.md) · 🇹🇷 Türkçe
 
 Çoğu ajan ekibi daha ilk prompt yazılmadan başarısız olur, çünkü roller yanlış
@@ -18,7 +21,7 @@ aksi yönde verilenler dahil.
 8 bölüm · 3 şablon · 2 örnek ekip · 12 ajan tanımı · 3 devir sözleşmesi
 ```
 
-> **Kardeş repo.** **AgentForge** aynı konunun mühendislik tarafı: burada anlatılan orkestratörün, gate'in, bütçenin ve denetim izinin
+> **Kardeş repo.** [AgentForge](https://github.com/turuncfatih/agentforge) aynı konunun mühendislik tarafı: burada anlatılan orkestratörün, gate'in, bütçenin ve denetim izinin
 > .NET ile yazılmış hali. Bu repo muhakemeyi, o repo makineyi gösteriyor.
 
 ---

@@ -2,6 +2,9 @@
 
 **How to design an agent team for a real project — role cuts, task contracts, model tiers, and the failures to design around.**
 
+[![check](https://github.com/turuncfatih/agent-team-playbook/actions/workflows/check.yml/badge.svg)](https://github.com/turuncfatih/agent-team-playbook/actions/workflows/check.yml)
+[![licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+
 🇬🇧 English · [🇹🇷 Türkçe](README.tr.md)
 
 Most agent teams fail before the first prompt is written, because the roles were
@@ -18,7 +21,7 @@ reasoning for every decision, including the ones that went the other way.
 8 chapters · 3 templates · 2 worked teams · 12 agent definitions · 3 handoff contracts
 ```
 
-> **Companion repository.** **AgentForge** is the same subject from the
+> **Companion repository.** [AgentForge](https://github.com/turuncfatih/agentforge) is the same subject from the
 > engineering side: a .NET implementation of the orchestrator,
 > the gate, the budget and the audit trail described here. This repo is the
 > judgment; that one is the machinery.
