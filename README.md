@@ -21,13 +21,11 @@ reasoning for every decision, including the ones that went the other way.
 8 chapters · 3 templates · 2 worked teams · 12 agent definitions · 3 handoff contracts
 ```
 
-> **Companion repositories.** This repo is the method. The other two are the
-> machinery and one worked application:
-> [AgentForge](https://github.com/turuncfatih/agentforge) — a .NET implementation
-> of the orchestrator, the gate, the budget and the audit trail described here.
-> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — this
-> method applied to building a website, with eight real agent definitions and a
-> working slop checker.
+> **Companion repositories.** This repo is the method; the others are the
+> machinery and two worked applications.
+> [AgentForge](https://github.com/turuncfatih/agentforge) — a .NET implementation of the orchestrator, gate and budget.
+> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — this method applied to building a website.
+> [Claude Mobile Workflow](https://github.com/turuncfatih/claude-mobile-workflow) — applied to a React Native app.
 
 ---
 
