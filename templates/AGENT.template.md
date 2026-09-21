@@ -81,3 +81,6 @@ whose territory is being protected.>
 - Do not <...> — that is `<other-role>`
 - Do not <...>
 - Do not approve your own output
+- Do not create files the task did not ask for — no SUMMARY.md, no NOTES.md
+- Do not comment what the code says; comment only why it is not obvious
+- Do not end with a recap of what you just did; the diff is the report

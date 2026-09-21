@@ -214,7 +214,7 @@ ortamından bağımsız — sadece frontmatter'a özgü.
 
 ---
 
-## On iki anti-pattern
+## On üç anti-pattern
 
 Her biri [7. bölümde](docs/07-anti-patterns.md) belirti, sebep ve çözümüyle.
 
@@ -223,7 +223,8 @@ Her biri [7. bölümde](docs/07-anti-patterns.md) belirti, sebep ve çözümüyl
 | Komite | Doğrulayıcı yok | Yazan kendini onaylıyor |
 | Herkeste her araç | Süs veto | Sonsuz döngü |
 | "Yardımcı ol" | Bağlam tıkması | Script olması gereken ajan |
-| Sessiz retry | İşi kendi yapan orkestratör | Bulduğun ekibi kopyalamak |
+| Sessiz retry | İşi kendi yapan orkestratör | **İstenmeyen artefakt** |
+| Bulduğun ekibi kopyalamak | | |
 
 Şu an bir ekibi çözüyorsan en hızlı üç kontrol:
 **doğrulayıcı var mı?** · **veto hiç ateşleniyor mu?** · **neredeyse hiç
@@ -255,7 +256,7 @@ docs/
   04-choosing-a-model-tier.md         prestij değil, geri alınabilirlik
   05-handoff-contracts.md             Sabit / Açık / Yasak / Kabul
   06-permissions-and-veto.md          en az yetki, iki tür veto
-  07-anti-patterns.md                 on iki tane, çözümleriyle
+  07-anti-patterns.md                 on üç tane, çözümleriyle
   08-is-your-team-working.md          beş sayı
 templates/
   AGENT.template.md · HANDOFF.template.md · TEAM.template.md

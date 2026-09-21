@@ -157,7 +157,63 @@ team entirely — not an orchestrator with side effects.
 
 ---
 
-## 12. Copying a team you found
+## 12. The artifact nobody asked for
+
+**Symptom.** After every task the repository has a new `SUMMARY.md`,
+`IMPLEMENTATION_NOTES.md` or `CHANGES.md`. Source files are a third comments,
+most of them restating the line below. Every reply ends with a bulleted recap of
+what was just done.
+
+**Why.** The agent is optimising for **looking** diligent rather than being
+useful. A summary file looks like care. A comment on every line looks thorough.
+A recap looks like accountability. None of them were requested, and all three are
+cheap to produce, which is exactly why they appear.
+
+**What it costs.** More than it seems:
+
+| Artifact | Why it hurts |
+|---|---|
+| `SUMMARY.md` | Stale the moment the next change lands, and then it actively misleads |
+| Comments restating code | Must be updated with the code. Never are. Then they lie |
+| Decorative section banners | Noise that hides the actual structure |
+| Commented-out code | Nobody dares delete it, because nobody knows whether it matters |
+| A recap at the end of every reply | Spends context and the reader's attention on zero new information |
+
+The deeper cost is that all of it is **unowned**. Nobody wrote it deliberately,
+so nobody maintains it, and a reviewer cannot tell what is deliberate from what
+accumulated.
+
+**Fix.** A standing rule in the project's context file, and an anti-goal in every
+agent that writes:
+
+```markdown
+## Output discipline
+
+1. Create no file the task did not ask for. No SUMMARY.md, NOTES.md, CHANGES.md.
+2. Comments explain why, never what. Rename instead of explaining.
+3. No decorative section banners.
+4. No commented-out code. Git remembers it.
+5. Report in one or two sentences. The diff is the summary.
+6. Do not add a README to a directory unless asked.
+```
+
+The rule underneath all six:
+
+> **The diff is the report. The code is the documentation. Everything else has
+> to earn its place.**
+
+Then enforce it like any other rule: a `SUMMARY.md` appearing in a diff is a
+review finding, the same category as a hardcoded value. Something was added
+because it was easy, and somebody else now has to maintain it.
+
+**The exception.** A document someone will actually read, that was actually
+asked for — an ADR recording a decision, a README for a repository that has
+readers, a handoff contract. The test is not "is it documentation", it is
+**"did anyone ask for this, and will anyone read it twice?"**
+
+---
+
+## 13. Copying a team you found
 
 **Symptom.** A team of roles that do not match the actual work, with two roles
 that are never invoked.

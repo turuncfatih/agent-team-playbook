@@ -215,7 +215,7 @@ runtime-agnostic — only the frontmatter is specific.
 
 ---
 
-## The twelve anti-patterns
+## The thirteen anti-patterns
 
 Each one in [chapter 7](docs/07-anti-patterns.md) with symptom, cause and fix.
 
@@ -224,7 +224,8 @@ Each one in [chapter 7](docs/07-anti-patterns.md) with symptom, cause and fix.
 | The committee | No verifier | The author approves their own work |
 | Everyone has every tool | The decorative veto | The infinite loop |
 | "Be helpful" | Context stuffing | The agent that should be a script |
-| Silent retry | The orchestrator that does the work | Copying a team you found |
+| Silent retry | The orchestrator that does the work | **The artifact nobody asked for** |
+| Copying a team you found | | |
 
 If you are debugging a team right now, the fastest three checks are:
 **is there a verifier?** · **does the veto ever fire?** · **is any role invoked
@@ -257,7 +258,7 @@ docs/
   04-choosing-a-model-tier.md         irreversibility, not prestige
   05-handoff-contracts.md             Fixed / Open / Forbidden / Acceptance
   06-permissions-and-veto.md          least privilege, two kinds of veto
-  07-anti-patterns.md                 twelve, with fixes
+  07-anti-patterns.md                 thirteen, with fixes
   08-is-your-team-working.md          five numbers
 templates/
   AGENT.template.md · HANDOFF.template.md · TEAM.template.md
